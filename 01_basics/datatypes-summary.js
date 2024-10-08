@@ -16,3 +16,8 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello World!")
 }
+
+//*********************************************/
+//memory
+// Stack Memory ->Primitive
+//Heap Memory -> Non-Primitve
