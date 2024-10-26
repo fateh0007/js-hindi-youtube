@@ -33,3 +33,14 @@ console.log(obj4);
 //now extracting all keys and values from the object
 console.log(Object.keys(tinderUser))
 console.log(Object.values(tinderUser))
+
+//de-structure
+const course = {
+    coursename: "js in hindi",
+    price : "999",
+    courseInstructor: "Hitesh"
+}
+
+const {courseInstructor: instructor} = course //courseInstructor naam change hogya instructor me
+//console.log(courseInstructor)
+console.log(instructor)
